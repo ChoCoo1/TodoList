@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+{% if latest_todo_list %}
+<ul>
+    {% for TodoList in latest_todo_list %}
+    <li><a href="{% url 'todolist:detail' TodoList.id %}">{{TodoList.task}}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No tasks are available</p>
+{% endif %}
+</body>
+</html>
