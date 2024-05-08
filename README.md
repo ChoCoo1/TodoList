@@ -76,7 +76,7 @@ https://blog.csdn.net/qq_43715354/article/details/109716564
 
 打开DBMS系统创建一个数据库名字任意，我这里创建的数据库名称是TodoMVC
 
-打开backend/django/路径下的setting.py文件，找到以下代码
+打开backend/web/路径下的setting.py文件，找到以下代码
 
 ```python
 
